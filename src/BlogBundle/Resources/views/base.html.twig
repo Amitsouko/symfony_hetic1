@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+</head>
+<body>
+
+<header>
+    <ul>
+        <li><a href="{{ path("blog_default_index") }}">Accueil</a></li>
+        <li>Fil d'actu</li>
+        <li><a href="{{ path('contact') }}">Contact</a></li>
+    </ul>
+
+</header>
+
+<div>
+    {% block body %}
+
+    {% endblock body %}
+</div>
+
+
+</body>
+</html>
